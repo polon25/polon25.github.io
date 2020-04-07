@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@700&display=swap');
 
-body {font-family: "Baloo Thambi 2", sans-serif; font-size: 18px; background-color: #33ccff; color: white } 
+body {font-family: "Baloo Thambi 2", sans-serif; font-size: 16px; background-color: #33ccff; color: white } 
 a:link { color: #0000aa } 
 a:visited { color: #aa00aa } 
 a:active { color: #00aa00 } 
 a:hover { color: #557777 } 
-h1 { font-family: "Baloo Thambi 2", sans-serif; font-weight: bold; text-align:left; margin-top: 5px; margin-bottom: 10px; } 
-h2 { text-align:left }
-h3 { text-align:left } 
-h4 { text-align:left } 
+h1 { font-size: 35px;font-weight: bold; text-align:left; margin-top: 5px; margin-bottom: 10px; } 
+h3 { font-size: 20px;text-align:left } 
 p { text-align:left; margin-top: 5px; margin-bottom: 5px; } 
-caption { color: black;font-weight: bold; text-align:center; margin-top: 10px; margin-bottom: 10px; } 
 td { text-align:center; padding:3px; border:2px solid black } 
 t1 { border: solid black }
 t2 { border:2px black }
+
+#center-space {
+	width: 70%;
+	height: auto;
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+}
